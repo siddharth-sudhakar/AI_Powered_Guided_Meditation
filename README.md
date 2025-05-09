@@ -6,15 +6,15 @@ This application generates personalized guided meditations using a fine-tuned La
 ## Features
 - 5 Meditation Categories:
 
-1. Focus
+    1. Focus
 
-2. Sleep
+    2. Sleep
 
-3. Anxiety & Stress
+    3. Anxiety & Stress
 
-4. Motivation
+    4. Motivation
 
-5. Forgiveness
+    5. Forgiveness
 
 - Customized Meditations:
 Users describe their emotional state (e.g., "I feel anxious after a tough meeting"), and the app generates a meditation script that addresses it.
@@ -32,9 +32,9 @@ LLM Few-Shot Prompting:
 
 - Emphasis on clarity, emotional resonance, and theme adherence.
 
-- Retrieval-Augmented Generation (RAG): Dynamically retrieves three additional transcripts from a preprocessed set of general advice and coping strategy content.
+Retrieval-Augmented Generation (RAG): Dynamically retrieves three additional transcripts from a preprocessed set of general advice and coping strategy content.
 
-- Text-to-Speech (TTS): Converts generated scripts to audio for a complete guided experience.
+Text-to-Speech (TTS): Converts generated scripts to audio for a complete guided experience.
 
 ## Example Use Case
 User Input:
