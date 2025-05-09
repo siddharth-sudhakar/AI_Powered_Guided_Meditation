@@ -1,4 +1,4 @@
-#**AI Powered Guided Meditation Application - Capstone Project for PG Diploma in AI & ML**
+#**AI Powered Guided Meditation Application - Capstone Project for PG Diploma in AI & ML**#
 
 This application utilizes a fine-tuned large language model (LLM) in combination with retrieval-augmented generation (RAG) and text-to-speech (TTS) technology. 
 This approach allows for creating highly customized and effective meditation experiences that resonate deeply with users.
