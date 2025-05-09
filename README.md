@@ -29,7 +29,7 @@ Scripts are converted into soothing speech using an open-source TTS model.
 ## Technical Overview
 LLM Few-Shot Prompting:
 
-- Few-shot prompt-based training on curated transcripts.
+- Few-shot prompting on curated transcripts.
 
 - Emphasis on clarity, emotional resonance, and theme adherence.
 
