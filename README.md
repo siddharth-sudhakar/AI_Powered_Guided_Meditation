@@ -1,17 +1,49 @@
-# **AI Powered Guided Meditation Application - Capstone Project for PG Diploma in AI & ML**
+# AI-Powered Guided Meditation Application
+Capstone Project – PG Diploma in AI & ML
 
-This application utilizes a fine-tuned large language model (LLM) in combination with retrieval-augmented generation (RAG) and text-to-speech (TTS) technology. 
-This approach allows for creating highly customized and effective meditation experiences that resonate deeply with users.
+This application generates personalized guided meditations using a fine-tuned Large Language Model (LLM) combined with Retrieval-Augmented Generation (RAG) and Text-to-Speech (TTS) technologies. The goal is to create calming, emotionally resonant meditation experiences tailored to the user's current state of mind.
 
-The project focuses on five distinct categories of meditation: Focus, Sleep, Anxiety and Stress, Motivation, and Forgiveness. 
-For each category, a dataset consisting of YouTube transcripts from six selected guided meditation videos has been curated. 
-These transcripts are pre-processed to ensure clarity and relevance, and the LLM is few-shot prompt trained on this dataset to enhance its capability to generate high-quality mediation scripts.
+## Features
+- 5 Meditation Categories:
 
-To further enrich the user experience, the RAG framework gives an opportunity to the model to integrate three contextually relevant transcripts for each meditation category. 
-These additional transcripts are sourced from well-regarded videos that provide general advice and coping strategies relevant to each theme.
-Importantly, all sourced content is under Creative Commons licenses, ensuring compliance and ethical use.
-Once the guided meditation script is generated, an open-source TTS model converts the text into high-quality audio, allowing users to experience the meditations in a soothing, spoken format. 
+1. Focus
 
-The application's interface allows users to articulate their current emotional challenges. 
-For instance, a user might input, "My boss yelled at me today, and I feel stressed. Could you please provide me with a guided meditation to help me feel better?" 
-In response, the application generates a tailored guided meditation designed to address that specific concern.
+2. Sleep
+
+3. Anxiety & Stress
+
+4. Motivation
+
+5. Forgiveness
+
+- Customized Meditations:
+Users describe their emotional state (e.g., "I feel anxious after a tough meeting"), and the app generates a meditation script that addresses it.
+
+- Context-Enriched Generation:
+The model uses RAG to integrate three relevant transcripts (sourced from Creative Commons YouTube videos) for deeper contextual grounding.
+
+- Natural-Sounding Audio:
+Scripts are converted into soothing speech using an open-source TTS model.
+
+## Technical Overview
+LLM Few-Shot Prompting:
+
+- Few-shot prompt-based training on curated transcripts.
+
+- Emphasis on clarity, emotional resonance, and theme adherence.
+
+- Retrieval-Augmented Generation (RAG): Dynamically retrieves three additional transcripts from a preprocessed set of general advice and coping strategy content.
+
+- Text-to-Speech (TTS): Converts generated scripts to audio for a complete guided experience.
+
+## Example Use Case
+User Input:
+
+"My boss yelled at me today, and I feel stressed. Could you provide a guided meditation to help me feel better?"
+
+Output:
+
+A calming, stress-reducing meditation script tailored to the user's situation, delivered via soothing audio.
+
+## Licensing
+All source content (transcripts) used in this project is obtained under Creative Commons licenses to ensure legal and ethical use.
